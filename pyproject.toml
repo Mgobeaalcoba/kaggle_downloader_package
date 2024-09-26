@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "kaggle-downloader-package"
+version = "0.1.5"
+description = "A package to download datasets from Kaggle."  # Descripción
+authors = ["Mariano Daniel Gobea Alcoba <gobeamariano@gmail.com>"]
+license = "MIT"                        # Tipo de licencia
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+python-dotenv = "^1.0.1"
+nbformat = "^5.10.4"
+chardet = "^5.2.0"
+kaggle = "^1.6.17"
+coverage = "^7.6.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

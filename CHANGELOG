@@ -1,0 +1,12 @@
+# Changelog
+
+## [1.0.0] - 2024-09-25
+
+### Added
+- Initial release of **KaggleDownloader** package.
+- Added `authenticate_kaggle()` method to authenticate with Kaggle API using `kaggle.json`.
+- Added `search_datasets(dataset_theme)` method to search for datasets on Kaggle by theme.
+- Added `download_dataset(dataset_slug, path)` method to download datasets from Kaggle using dataset slug.
+- Added `extract_zip(zip_path, extract_to)` method to extract zip files downloaded from Kaggle.
+- Added command-line interface (CLI) support using `argparse` for dataset download.
+- Added functionality to create download directories if they don’t exist.
