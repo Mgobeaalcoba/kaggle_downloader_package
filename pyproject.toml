@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "kaggle-downloader-package"
-version = "0.1.6"
+version = "0.1.7"
 description = "A package to download datasets from Kaggle."  # Descripción
 authors = ["Mariano Daniel Gobea Alcoba <gobeamariano@gmail.com>"]
 license = "MIT"                        # Tipo de licencia
+homepage = "https://github.com/Mgobeaalcoba/kaggle_downloader_package"
+repository = "https://github.com/Mgobeaalcoba/kaggle_downloader_package"
+documentation = "https://github.com/Mgobeaalcoba/kaggle_downloader_package"
 readme = "README.md"
 
 [tool.poetry.dependencies]
